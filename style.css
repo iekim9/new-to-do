@@ -1,0 +1,31 @@
+<link href="https://fonts.googleapis.com/css?family=Lora|Montserrat:300|Raleway" rel="stylesheet">
+    <!-- font-family: 'Montserrat', sans-serif;
+      font-family: 'Raleway', sans-serif;
+      font-family: 'Lora', serif; -->
+body {
+    background-color: blue;
+    text-align: center;
+}
+
+.todo {
+    align-content: center;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    color: #2B4F81;
+    text-align: center;
+}
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    color: #2B4F81;
+    text-align: center;
+}
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    color: #2B4F81;
+    text-align: center;
+}

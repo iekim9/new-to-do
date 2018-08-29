@@ -1,0 +1,10 @@
+{
+  "name": "new to do",
+  "version": "1.0",
+  "description": "a new tab with a to-do list",
+  "manifest_version": 2,
+  "chrome_url_overrides": {
+    "newtab": "myPage.html"
+  },
+  "permissions": ["geolocation"]
+}

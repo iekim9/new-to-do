@@ -1,0 +1,55 @@
+<link href="https://fonts.googleapis.com/css?family=Lora|Montserrat:300|Raleway" rel="stylesheet">
+    <!-- font-family: 'Montserrat', sans-serif;
+      font-family: 'Raleway', sans-serif;
+      font-family: 'Lora', serif; -->
+    <style>
+      body {
+        background-color: #DCE8E8;
+        text-align: center;
+      }
+      h1 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 50px;
+        color: #2B4F81;
+      }
+      h2 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 30px;
+        color: #2B4F81;
+      }
+      h3 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 30px;
+        color: #2B4F81;
+      }
+    </style>
+
+
+// build url
+var urlStart = "http://api.openweathermap.org/data/2.5/weather?";
+var units = "&units=imperial";
+var key = "&APPID=f663c30808c7e0f9c5a7b150087fe2a7";
+
+var latitude = "lat=";
+var longitude = "&lon=";
+//var lat = #;
+//var long = #;
+
+var response = "+";
+
+// get lat + long coords
+
+
+var currentPos;
+
+function assignPosition(position)
+{
+    currentPos = position;
+}
+
+function error(err)
+{
+    response += "location not supported";
+}
+
+navigator.geolocation.getCurrentPosition(assignPosition, error);
